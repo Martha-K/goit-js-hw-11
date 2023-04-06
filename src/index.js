@@ -58,7 +58,8 @@ async function imageSearch(e) {
   }
 
   if (totalPics === result.length) {
-    addPics.classList.add('hidden');
+      addPics.classList.add('hidden');
+     Notiflix.Notify.warning("We're sorry, but you've reached the end of search results.")
   }
 }
 
